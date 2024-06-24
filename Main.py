@@ -3,9 +3,6 @@ import Funciones as biblioteca
 
 #Listas para la biblioteca
 lista_libros=[["numero","Nombre","Autor","Año de publicacion","Genero"]]
-<<<<<<< HEAD
-
-=======
 #probando que funcione
 Biblioteca.agregar_libro
 Biblioteca.ver_libros
@@ -22,4 +19,4 @@ while True:
  print("")
  input("ingrese una opción: ")
  break
->>>>>>> badda376dfa8921ffd75c8a3fdd1a539abca1fb2
+
