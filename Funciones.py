@@ -6,9 +6,11 @@ def agregar_libro(lista_libros):
     genero=input("Ingrese el genero del libro=")
     lista_libros[[numero,nombre,autor,año,genero]]
     numero=numero+1
+
 def ver_libros(lista_libros):
     for i in lista_libros:
         print(i)
+        
 def modificar_libro(lista_libros):
     numeromodificar=int(input("Ingrese el numero del libro que desea modificar"))
     if numeromodificar in lista_libros:
@@ -28,12 +30,12 @@ def eliminar_libro(lista_libros):
 
 def menu_ops(lista_libros):
     while True:
-     print("1.- Agregar Libro")
-     print("2.- Ver todos los libros")
-     print("3.- Modificar un libro")
-     print("4.- Eliminar un Libro")
-     print("5.- Guardar coleccion en un archivo")
-     print("6.- Salir del programa")
-     print("")
-     input("ingrese una opción: ")
-     break
+        print("1.- Agregar Libro")
+        print("2.- Ver todos los libros")
+        print("3.- Modificar un libro")
+        print("4.- Eliminar un Libro")
+        print("5.- Guardar coleccion en un archivo")
+        print("6.- Salir del programa")
+        print("")
+        input("ingrese una opción: ")
+        break   
