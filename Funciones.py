@@ -38,5 +38,6 @@ def menu_ops(lista_libros):
         print("6.- Salir del programa")
         print("")
         input("ingrese una opción: ")
-        break   
+        
+            
 
