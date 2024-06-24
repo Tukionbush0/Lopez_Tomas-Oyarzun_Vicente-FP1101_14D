@@ -28,30 +28,6 @@ def eliminar_libro(lista_libros):
     if numeroeliminar in lista_libros:
         lista_libros.remove[[numeroeliminar]]
 
-    while True:
-        print("1.- Agregar Libro")
-        print("2.- Ver todos los libros")
-        print("3.- Modificar un libro")
-        print("4.- Eliminar un Libro")
-        print("5.- Guardar coleccion en un archivo")
-        print("6.- Salir del programa")
-        print("")
-        ops=input("ingrese una opción: ")
-        if ops==1:
-            biblioteca.agregar_libro(lista_libro)
-        elif ops==2:
-            biblioteca.ver_libros(lista_libro)
-        elif ops==3:
-            biblioteca.modificar_libro(lista_libro)
-        elif ops==4:
-            biblioteca.eliminar_libro(lista_libro)
-        elif ops==5:
-            print
-        elif ops==6:
-            print("Saliendo de programa")
-            break
-        else:
-            print("opcion no valida")
         
             
 
