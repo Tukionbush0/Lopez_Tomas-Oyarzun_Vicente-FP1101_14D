@@ -27,8 +27,7 @@ def eliminar_libro(lista_libros):
     numeroeliminar=int(input("Ingrese numero de libro que quiere modificar"))
     if numeroeliminar in lista_libros:
         lista_libros.remove[[numeroeliminar]]
-        
-def menu_ops(lista_libro,biblioteca):
+
     while True:
         print("1.- Agregar Libro")
         print("2.- Ver todos los libros")
