@@ -2,6 +2,11 @@ import Funciones as Biblioteca
 
 #Listas para la biblioteca
 lista_libros=[["numero","Nombre","Autor","Año de publicacion","Genero"]]
+#probando que funcione
+Biblioteca.agregar_libro
+Biblioteca.ver_libros
+Biblioteca.modificar_libro
+Biblioteca.eliminar_libro
 #Menu de opciones
 while True:
  print("1.- Agregar Libro")
