@@ -1,5 +1,7 @@
 import Funciones as Biblioteca
 
+#Listas para la biblioteca
+lista_libros=[[Nombre,Autor,Año de publicacion,Genero]]
 #Menu de opciones
 
 print("1.- Agregar Libro")
