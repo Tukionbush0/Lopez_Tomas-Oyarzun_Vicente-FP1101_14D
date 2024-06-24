@@ -1,4 +1,4 @@
-import Funciones
+import Funciones as Biblioteca
 
 #Menu de opciones
 
